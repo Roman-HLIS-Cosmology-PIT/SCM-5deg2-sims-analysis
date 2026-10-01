@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+dependencies:
+  - astropy
+  - healpy
+  - galsim
+  - ngmix
+  - numpy
+  - pandas
+  - pip
+  - pyccl
+  - python >= 3.12
+  - scipy
+  - skyproj
+  - treecorr
+  - pip:
+      - cosmo_numba @ git+https://github.com/aguinot/cosmo-numba.git
